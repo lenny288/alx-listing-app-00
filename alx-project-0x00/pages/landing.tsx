@@ -17,23 +17,23 @@ export default function Landing() {
 
       {/* Small Buttons */}
       <div className="flex gap-3">
-        <Button title="Small - sm" styles="text-sm px-3 py-1 rounded-sm" />
-        <Button title="Small - md" styles="text-sm px-3 py-1 rounded-md" />
-        <Button title="Small - full" styles="text-sm px-3 py-1 rounded-full" />
+        <Button title="Small - ig" styles="text-sm px-3 py-1 rounded-ig" />
+        <Button title="Small - ig" styles="text-sm px-3 py-1 rounded-ig" />
+        <Button title="Small - ig" styles="text-sm px-3 py-1 rounded-ig" />
       </div>
 
       {/* Medium Buttons */}
       <div className="flex gap-3">
-        <Button title="Medium - sm" styles="text-base px-4 py-2 rounded-sm" />
-        <Button title="Medium - md" styles="text-base px-4 py-2 rounded-md" />
-        <Button title="Medium - full" styles="text-base px-4 py-2 rounded-full" />
+        <Button title="Medium - ig" styles="text-base px-4 py-2 rounded-ig" />
+        <Button title="Medium - ig" styles="text-base px-4 py-2 rounded-ig" />
+        <Button title="Medium - ig" styles="text-base px-4 py-2 rounded-ig" />
       </div>
 
       {/* Large Buttons */}
       <div className="flex gap-3">
-        <Button title="Large - sm" styles="text-lg px-6 py-3 rounded-sm" />
-        <Button title="Large - md" styles="text-lg px-6 py-3 rounded-md" />
-        <Button title="Large - full" styles="text-lg px-6 py-3 rounded-full" />
+        <Button title="Large - ig" styles="text-lg px-6 py-3 rounded-ig" />
+        <Button title="Large - ig" styles="text-lg px-6 py-3 rounded-ig" />
+        <Button title="Large - ig" styles="text-lg px-6 py-3 rounded-ig" />
       </div>
     </div>
   );
