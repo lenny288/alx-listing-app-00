@@ -9,5 +9,8 @@ const Home: React.FC = () => {
   )
 }
 
+export interface PillProps {
+  title: string
+}
 export default Home
 
