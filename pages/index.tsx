@@ -1,10 +1,10 @@
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 
-const filters = ["Top Villa", "Self Checkin", "Luxury", "Countryside", "Beachfront"];
+const filters = ["estate",  "normal", "City"];
 
 const Pill = ({ label }: { label: string }) => (
   <span className="px-4 py-2 bg-gray-100 border rounded-full text-sm cursor-pointer hover:bg-blue-100">
-    {label}
+    Ndovu{label}
   </span>
 );
 
@@ -20,8 +20,8 @@ export default function Home() {
           backgroundPosition: "center",
         }}
       >
-        <h1 className="text-4xl font-bold">Find your favorite place here!</h1>
-        <p className="mt-4 text-lg">The best prices for over 2 million properties worldwide.</p>
+        <h1 className="">Ndovu</h1>
+        <p className="">the best class ever</p>
       </section>
 
       {/* Filter Section */}
